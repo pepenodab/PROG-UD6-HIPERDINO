@@ -4,10 +4,10 @@ import java.util.Date;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Producto {
-  final private  ThreadLocalRandom R =ThreadLocalRandom.current();
-  private String nombre;
-  private float precio;
-  private Date fechaCaducidad = new Date(R.nextLong());
+  final protected  ThreadLocalRandom R =ThreadLocalRandom.current();
+  protected String nombre;
+  protected float precio;
+  protected Date fechaCaducidad = new Date(R.nextLong());
 
   public Producto (String nombre, float precio) {
     this.nombre = nombre;
