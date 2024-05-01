@@ -1,16 +1,9 @@
 package net.hiperdino.productos;
 
+import net.hiperdino.utilidades.TipoProducto.Tipo;
+
 public class Alimento  extends Producto{
-
   private boolean caducado;
-
-  private enum Tipo  {
-    LACTEO,
-    CONGELADO,
-    FRESCO,
-    PREPARADO,
-    PROCESADO
-  }
   private Tipo tipo;
   
   public Alimento(String nombre, float precio, boolean caducado, Tipo tipo) {
