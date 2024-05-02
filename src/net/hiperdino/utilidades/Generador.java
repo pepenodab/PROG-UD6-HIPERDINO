@@ -7,6 +7,40 @@ import net.hiperdino.productos.Producto;
 import net.hiperdino.utilidades.TipoProducto.Tipo;
 
 public class Generador {
+
+  final private static String[] LISTA_NOMBRES = {
+    "Ana",
+    "Juan",
+    "María",
+    "Carlos",
+    "Laura",
+    "David",
+    "Sandra",
+    "José",
+    "Patricia",
+    "Francisco",
+    "Cristina",
+    "Ramón",
+    "Isabel",
+    "Luis",
+    "Andrea",
+    "Pedro",
+    "Marta",
+    "Antonio",
+    "Clara",
+    "Alejandro",
+    "Eva",
+    "Diego",
+    "Raquel",
+    "Pablo",
+    "Vanessa",
+    "Jesús",
+    "Adrián",
+    "Sonia",
+    "Miguel",
+    "Elena"
+  };
+
   final private static Producto[] LISTA_PRODUCTOS = {
     new Higiene("Cepillo Cepillin", 2.2f, false, "1 mes"),
     new Higiene("Champu Cebolla Roja", 17.99f, true, "¡Depende de lo que se duche, guarro!"),
@@ -35,38 +69,7 @@ public class Generador {
   }
 
   public static String nombreAleatorio(){
-    String[] LISTA_NOMBRES = {
-      "Ana",
-      "Juan",
-      "María",
-      "Carlos",
-      "Laura",
-      "David",
-      "Sandra",
-      "José",
-      "Patricia",
-      "Francisco",
-      "Cristina",
-      "Ramón",
-      "Isabel",
-      "Luis",
-      "Andrea",
-      "Pedro",
-      "Marta",
-      "Antonio",
-      "Clara",
-      "Alejandro",
-      "Eva",
-      "Diego",
-      "Raquel",
-      "Pablo",
-      "Vanessa",
-      "Jesús",
-      "Adrián",
-      "Sonia",
-      "Miguel",
-      "Elena"
-    };
+
     return LISTA_NOMBRES[(int) (Math.random() * 30)];
   }
 
