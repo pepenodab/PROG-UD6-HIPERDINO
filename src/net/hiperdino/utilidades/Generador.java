@@ -69,6 +69,7 @@ public class Generador {
   }
 
   public static String nombreAleatorio(){
+
     return LISTA_NOMBRES[(int) (Math.random() * 30)];
   }
 
