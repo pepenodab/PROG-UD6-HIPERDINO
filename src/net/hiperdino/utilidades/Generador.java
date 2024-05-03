@@ -61,7 +61,7 @@ public class Generador {
     new Alimento("Pescado", 10.49f, false, Tipo.FRESCO),
     new Alimento("Arroz", 1.49f, false, Tipo.PREPARADO),
     new Alimento("Pasta", 1.19f, false, Tipo.PROCESADO),
-    new Alimento("Legumbres", 0.89f, false, Tipo.PREPARADO)
+    new Alimento("Jagermeister", 14.99f, false, Tipo.ALCOHOL)
   };
 
   public static int tamañoCestaAleatorio(){

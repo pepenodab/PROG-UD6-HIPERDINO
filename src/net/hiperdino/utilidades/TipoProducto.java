@@ -6,6 +6,7 @@ public class TipoProducto {
     CONGELADO,
     FRESCO,
     PREPARADO,
-    PROCESADO
+    PROCESADO,
+    ALCOHOL
   }
 }
