@@ -47,7 +47,7 @@ public class App {
                     if(cajero1.getColaClientes().isEmpty()){
                         JOptionPane.showMessageDialog(null, "Actualmente no hay clientes en fila");
                     } else {
-                        System.out.println("Actualmente se encuentra en la fila: ");
+                        JOptionPane.showMessageDialog(null, "Actualmente se encuentra en la fila: ");
                         for (Cliente clientito : cajero1.getColaClientes()) {
                             JOptionPane.showMessageDialog(null, clientito.getNombre() + " el cual seria atendido en el cajero " + cajero1.getNumeroCaja());
                         }
