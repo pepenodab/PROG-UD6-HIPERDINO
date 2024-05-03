@@ -38,6 +38,10 @@ public class Cajero {
     this.colaClientes = colaClientes;
   }
 
+  public void añadirCliente(Cliente cliente){
+    this.colaClientes.add(cliente);
+  }
+
   @Override
   public String toString() {
     String descripcion = "================================= \n * Numero de caja: ";
