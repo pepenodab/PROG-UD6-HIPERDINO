@@ -7,7 +7,7 @@ import net.hiperdino.clientes.Cliente;
 
 public class Cajero {
   protected int numeroCaja;
-  protected boolean abierta;
+  protected boolean abierta = false;
   protected Queue<Cliente> colaClientes = new LinkedList<>();
 
   public Cajero(int numeroCaja){
@@ -36,6 +36,10 @@ public class Cajero {
 
   public void setColaClientes(Queue<Cliente> colaClientes) {
     this.colaClientes = colaClientes;
+  }
+
+  public void añadirCliente(Cliente cliente){
+    this.colaClientes.add(cliente);
   }
 
   @Override

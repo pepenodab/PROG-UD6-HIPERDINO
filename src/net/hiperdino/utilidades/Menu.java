@@ -3,7 +3,7 @@ package net.hiperdino.utilidades;
 import javax.swing.JOptionPane;
 
 public class Menu {
-  public String printMenu(){
+  public static String printMenu(){
     String mensaje = """
         1- Abrir caja
         2- Añadir un nuevo cliente a la cola 
